@@ -38,4 +38,9 @@ fun main() {
     }
     val c = if (a >= b) a else b
     println("c 的值为 $c")
+
+    // 使用区间，使用in运算符来检测某个数字是否在指定区间内，区间格式为x..y
+    if (b in 1..20) {
+        println("b 在区间内")
+    }
 }
