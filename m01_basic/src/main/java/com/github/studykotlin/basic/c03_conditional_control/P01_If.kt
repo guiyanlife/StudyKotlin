@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c03_conditional_control
  * Description: if表达式
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     // 一个if语句包含一个布尔表达式和一条或多条语句
     val a = 20
     val b = 10

@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c04_loop_control
  * Description: For循环
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     // for循环可以对任何提供迭代器(iterator)的对象进行遍历
     val items = listOf("apple", "banana", "kiwi")
     for (item in items) {

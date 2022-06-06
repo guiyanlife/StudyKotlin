@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c02_data_type
  * Description: 位操作符
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     // 对于Int和Long类型，还有位操作符可以使用
     val two: Int = 2
     println(two.shl(1))   // 左移位(Java’s <<)

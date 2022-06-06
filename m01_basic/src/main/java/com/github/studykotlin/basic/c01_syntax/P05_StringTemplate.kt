@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c01_syntax
  * Description: 字符串模版
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     var a = 1
     val s1 = "a is $a"  // $varName表示变量值
     println(s1)

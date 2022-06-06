@@ -21,7 +21,7 @@ class PackageDeclaration {  // 类的全名是com.github.studykotlin.basic.c01_s
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     com.github.studykotlin.basic.c01_syntax.PackageDeclaration.test()
     val google = com.github.studykotlin.basic.c01_syntax.PackageDeclaration()
     println(google.toString())

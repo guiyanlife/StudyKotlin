@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c02_data_type
  * Description: 类型转换
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     // 较小类型并不是较大类型的子类型，较小的类型不能隐式转换为较大的类型
     val b: Byte = 1  // OK, 字面值是静态检测的
 //    val i: Int = b  // 错误

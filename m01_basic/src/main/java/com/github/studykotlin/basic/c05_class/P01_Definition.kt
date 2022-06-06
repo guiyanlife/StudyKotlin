@@ -14,7 +14,7 @@ class Definition {  // 类名为Definition
 
 class Empty  // 也可以定义一个空类
 
-fun main() {
+fun main(args: Array<String>) {
     Definition().foo()
     println(Empty())
 }

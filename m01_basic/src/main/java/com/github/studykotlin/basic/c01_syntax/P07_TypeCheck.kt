@@ -37,7 +37,7 @@ class TypeCheck {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     val typeCheck = TypeCheck()
     println(typeCheck.getStringLength("1024"))
     println(typeCheck.getStringLength(1024))

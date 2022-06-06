@@ -25,6 +25,6 @@ class Character {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     println(Character().decimalDigitValue('8'))
 }

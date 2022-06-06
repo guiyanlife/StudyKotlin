@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c02_data_type
  * Description: 数组
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     // 数组的创建
     val a = arrayOf(1, 2, 3)  // 使用函数arrayOf()创建数组[1, 2, 3]
     val b = Array(3, { i -> (i * 2) })  // 使用工厂函数创建数组[0, 2, 4]

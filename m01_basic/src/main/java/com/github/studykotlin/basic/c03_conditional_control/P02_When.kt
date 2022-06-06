@@ -15,7 +15,7 @@ class When {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     // when将它的参数和所有的分支条件顺序比较，直到某个分支满足条件
     var x = 0
     when (x) {

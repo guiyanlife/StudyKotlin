@@ -14,6 +14,6 @@ class Annotation {
     }
 }
 
-fun main() {
+fun main(args: Array<String>) {
     println(Annotation().sum(2, 30))
 }

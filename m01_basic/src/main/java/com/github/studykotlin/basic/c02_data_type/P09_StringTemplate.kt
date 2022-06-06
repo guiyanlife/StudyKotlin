@@ -5,7 +5,7 @@ package com.github.studykotlin.basic.c02_data_type
  * Description: 字符串模板
  * Author(s): Gui Yan (guiyanlife@163.com)
  */
-fun main() {
+fun main(args: Array<String>) {
     // 字符串可以包含模板表达式，可以求值并把结果合并到字符串中。模板表达式以美元符$开头，由一个简单的名字构成
     val i = 10
     val s = "i = $i"  // 求值结果为"i = 10"
