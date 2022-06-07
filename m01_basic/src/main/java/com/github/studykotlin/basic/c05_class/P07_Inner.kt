@@ -23,6 +23,6 @@ class OuterClass {
 
 fun main(args: Array<String>) {
     val demo = OuterClass().Inner().foo()
-    println(demo)   // 1
+    println(demo)  // 1
     OuterClass().Inner().innerTest()  // 内部类可以引用外部类的成员，例如：成员属性
 }

@@ -9,8 +9,8 @@ fun main(args: Array<String>) {
     // 基本数值类型包括Byte、Short、Int、Long、Float、Double等。不同于Java的是，字符不属于数值类型，是一个独立的数据类型
     // Byte类型，占8bit（1字节）
     val byte: Byte = 127
-    val hexByte: Byte = 0xFF.toByte() // 16进制以0x开头
-    val binByte: Byte = 0b00001011.toByte() // 2进制以0b开头
+    val hexByte: Byte = 0xFF.toByte()  // 16进制以0x开头
+    val binByte: Byte = 0b00001011.toByte()  // 2进制以0b开头
 
     // Short类型，占16bit（2字节）
     val short: Short = 32767

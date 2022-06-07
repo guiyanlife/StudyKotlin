@@ -47,7 +47,7 @@ class NullCheck {
 }
 
 fun main(args: Array<String>) {
-    var age: String? = "23"  // 类型后面加?表示可为空
+    var age: String? = "23"   // 类型后面加?表示可为空
     val ages = age!!.toInt()  // age为空抛出空指针异常
     val ages1 = age?.toInt()  // age为空不做处理返回null
     val ages2 = age?.toInt() ?: -1  // age为空返回-1
