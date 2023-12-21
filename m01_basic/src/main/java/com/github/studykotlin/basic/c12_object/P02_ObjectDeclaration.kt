@@ -53,7 +53,7 @@ class Site {
 
 fun main(args: Array<String>) {
     // 引用该对象可以直接使用其名称
-    ObjectDeclaration.setData(intArrayOf(1, 2, 3))
+    ObjectDeclaration.setData(intArrayOf(1, 2, 3)) // 对象声明是在第一次被访问到时延迟初始化的
 
     // 可以定义一个变量来获取这个对象
     val data1 = ObjectDeclaration

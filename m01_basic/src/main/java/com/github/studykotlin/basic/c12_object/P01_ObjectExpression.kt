@@ -50,7 +50,7 @@ class C {
 fun main(args: Array<String>) {
     // 通过对象表达式实现一个匿名内部类的对象用于方法的参数中
     var testCount = 0
-    ObjectExpression().setInterface(object : ObjectExpression.TestInterface {
+    ObjectExpression().setInterface(object : ObjectExpression.TestInterface { // 对象表达式是在使用它们的地方立即执行的
         override fun test() {
             println("对象表达式创建匿名内部类的实例")
             testCount++  // 在对象表达中可以方便的访问到作用域中的其他变量
